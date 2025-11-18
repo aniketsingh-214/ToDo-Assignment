@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",            // or "ESNext"
+    "moduleResolution": "NodeNext", // matches Node ESM resolution
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": false    // optional: avoid strict verbatim checks
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
